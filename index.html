@@ -1,4 +1,29 @@
 ---
-layout: home
+layout: single
 author_profile: true
 ---
+
+<h1 class="page_title">Personal Projects</h1>
+
+{% for project in site.projects %}
+<div class="feature_wrapper">
+  <div class="feature__item--left">
+    <div class="archive__item">
+      <div class="archive__item-teaser">
+        <a href="{{project.url}}">
+          <img src="/assets/images/projects/{{ project.title }}.jpg" />
+        </a>
+      </div>
+      <div class="archive__item-body">
+        <div class="projecttitle">{{ project.title }}</div>
+        <p>
+          <a href="{{project.url}}" target="_blank" class="btn btn--primary"
+            >Project Page</a
+          >
+        </p>
+      </div>
+    </div>
+  </div>
+  <hr width="100%" color="#41879d" size="1" />
+</div>
+{% endfor %}

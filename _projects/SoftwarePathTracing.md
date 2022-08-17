@@ -1,0 +1,34 @@
+---
+uid: 1
+layout: single
+title: Software Path Tracing
+---
+
+<div>
+<img src="/assets/images/projects/Software Path Tracing.jpg" width="300"/>
+<a href="https://github.com/wcvanvan/SoftwarePathTracing" target="_blank" class="btn btn--primary">View on Github</a>
+</div>
+
+This project is a software path tracing program, implemented in modern C++. 
+
+It depends on no other libraries except stb_image to read in images.
+
+
+## List of Features 
+**Possessing following materials**
++ Lambertian
++ Metal
++ Dielectric
++ Participating media
++ Perlin noise
++ Texture mapping
+
+**Camera Functionalities**
++ Defocus Blur
++ Motion Blur
+
+**Acceleration Structure**
++ BVH
+
+## Gallery
+<img src="/assets/images/projects/Software Path Tracing.jpg" width="400"/>
