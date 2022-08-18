@@ -11,11 +11,19 @@ author_profile: true
     <div class="archive__item">
       <div class="archive__item-teaser">
         <a href="{{project.url}}">
-          <img src="/assets/images/projects/{{ project.title }}.jpg" />
+          <img
+            src="/assets/images/projects/{{ project.title }}.jpg"
+            width="150"
+          />
         </a>
       </div>
       <div class="archive__item-body">
-        <div class="projecttitle">{{ project.title }}</div>
+        <div class="projecttitle" style="font-size: 30px; font-weight: bold">
+          {{ project.title }}
+        </div>
+        <p></p>
+        <p style="font-size: 20px">{{project.intro}}</p>
+        <p></p>
         <p>
           <a href="{{project.url}}" target="_blank" class="btn btn--primary"
             >Project Page</a

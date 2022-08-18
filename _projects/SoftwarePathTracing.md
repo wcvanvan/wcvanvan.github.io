@@ -1,7 +1,8 @@
 ---
 uid: 1
-layout: single
+layout: posts
 title: Software Path Tracing
+intro: A simple physically-based renderer
 ---
 
 <div>
