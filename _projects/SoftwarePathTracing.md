@@ -30,6 +30,3 @@ It depends on no other libraries except stb_image to read in images.
 
 **Acceleration Structure**
 + BVH
-
-## Gallery
-<img src="/assets/images/projects/Software Path Tracing.jpg" width="400"/>

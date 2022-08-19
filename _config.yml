@@ -292,3 +292,7 @@ collections:
   projects:
     output: true
     permalink: /:collection/:name
+    order:
+      - SoftwarePathTracing.md
+      - HumanIdentification.md
+
