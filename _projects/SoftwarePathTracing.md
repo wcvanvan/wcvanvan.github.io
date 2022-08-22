@@ -2,7 +2,7 @@
 uid: 1
 layout: posts
 title: Software Path Tracing
-intro: A simple physically-based renderer
+intro: a simple physically-based renderer
 ---
 
 <div>
@@ -10,7 +10,7 @@ intro: A simple physically-based renderer
 <a href="https://github.com/wcvanvan/SoftwarePathTracing" target="_blank" class="btn btn--primary">View on Github</a>
 </div>
 
-This project is a software path tracing program, implemented in modern C++. 
+a software path tracing, implemented in modern C++. 
 
 It depends on no other libraries except stb_image to read in images.
 
