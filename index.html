@@ -5,7 +5,8 @@ author_profile: true
 
 <h1 class="page_title">Personal Projects</h1>
 
-{% for project in site.projects %}
+{% assign projects = site.projects | sort: 'uid' %}
+{% for project in projects %}
 <div class="feature_wrapper">
   <div class="feature__item--left">
     <div class="archive__item">
