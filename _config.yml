@@ -118,13 +118,13 @@ author:
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://www.facebook.com/wenchengzhang020"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/wcvanvan"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "ShaderToy"
+      icon: "fab fa-fw fa-shadertoy"
+      url: "https://www.shadertoy.com/user/wcvanvan"
 
 # Site Footer
 footer:
