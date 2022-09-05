@@ -1,13 +1,13 @@
 ---
 uid: 1
 layout: posts
-title: Software Path Tracing
+title: wcRay
 intro: a simple physically-based renderer
 ---
 
 <div>
-<img src="/assets/images/projects/Software Path Tracing.jpg" width="300"/>
-<a href="https://github.com/wcvanvan/SoftwarePathTracing" target="_blank" class="btn btn--primary">View on Github</a>
+<img src="/assets/images/projects/wcRay.jpg" width="300"/>
+<a href="https://github.com/wcvanvan/wcRay" target="_blank" class="btn btn--primary">View on Github</a>
 </div>
 
 a software path tracing project, implemented in modern C++. 
@@ -16,7 +16,8 @@ It depends on no other libraries except stb_image to read in images.
 
 
 ## List of Features 
-+ **Importance Sampling**
+- **Importance Sampling**
+
 - **Materials**
     - Lambertian
     - Metal
@@ -24,6 +25,11 @@ It depends on no other libraries except stb_image to read in images.
     - Participating media
     - Perlin noise
     - Texture mapping
+
+- **Texture**
+    - Perlin Noise
+    - Texture Mapping
+
 
 - **Camera Functionalities**
     - Defocus Blur
