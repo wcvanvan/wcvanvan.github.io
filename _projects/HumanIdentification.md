@@ -19,7 +19,7 @@ This simple CNN model contains 3 convolutional layers, 2 max-pooling layers and 
 ## Features
 The core of this project is a self-made matrix class, high speed matrix multiplication and convolution
 
-+ matrix class possesses soft-copy function, performant in the scene of image copying
++ the Matrix class possesses soft-copy function, performant in the scene of image copying. Achieved by reference counting.
 
 + matrix multiplication utilized various skills to obtain high speed, including partitioning matrices into smaller blocks and SIMD (crossed-platfrom achieved)
 
