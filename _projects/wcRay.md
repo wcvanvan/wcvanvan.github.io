@@ -14,8 +14,8 @@ a software path tracing project, implemented in modern C++.
 
 It depends on no other libraries except stb_image to read in images.
 
+## List of Features
 
-## List of Features 
 - **Importance Sampling**
 
 - **Materials**
@@ -37,3 +37,7 @@ It depends on no other libraries except stb_image to read in images.
 
 - **Acceleration Structure**
     - BVH
+
+
+
+<img src="/assets/images/projects/wcRay2.jpg" width="500"/>
