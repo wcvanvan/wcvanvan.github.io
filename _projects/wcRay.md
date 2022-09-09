@@ -26,17 +26,17 @@ It depends on no other libraries except stb_image to read in images.
     - Perlin noise
     - Texture mapping
 
-- **Texture**
-    - Perlin Noise
-    - Texture Mapping
-
-
 - **Camera Functionalities**
     - Defocus Blur
     - Motion Blur
 
 - **Acceleration Structure**
     - BVH
+
+- **Texture**
+    - Perlin Noise
+    - Checkerboard
+    - Texture Mapping
 
 
 
