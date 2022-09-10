@@ -1,13 +1,13 @@
 ---
 uid: 2
 layout: posts
-title: Human Identification
+title: Face Detection
 intro: capable of distinguishing human from scenery
 ---
 
 <div>
-<img src="/assets/images/projects/Human Identification.jpg" width="300"/>
-<a href="https://github.com/wcvanvan/HumanIdentification" target="_blank" class="btn btn--primary">View on Github</a>
+<img src="/assets/images/projects/Face Detection.jpg" width="300"/>
+<a href="https://github.com/wcvanvan/FaceDetection" target="_blank" class="btn btn--primary">View on Github</a>
 </div>
 
 The forward propagation part of a CNN, using the model trained by the library "<a href="https://github.com/ShiqiYu/libfacedetection">libfacedetection</a>" (written by my teacher)

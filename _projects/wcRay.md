@@ -17,22 +17,16 @@ It depends on no other libraries except stb_image to read in images.
 ## List of Features
 
 - **Importance Sampling**
-
 - **Materials**
     - Lambertian
     - Metal
     - Dielectric
-    - Participating media
-    - Perlin noise
-    - Texture mapping
-
+    - Participating Media
 - **Camera Functionalities**
     - Defocus Blur
     - Motion Blur
-
 - **Acceleration Structure**
     - BVH
-
 - **Texture**
     - Perlin Noise
     - Checkerboard
