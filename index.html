@@ -3,37 +3,26 @@ layout: single
 author_profile: true
 ---
 
-<h1 class="page_title">Personal Projects</h1>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<h1 class="page_title" style="margin-bottom: 1em; font-size: 4vw;">Personal Projects</h1>
 
 {% assign projects = site.projects | sort: 'uid' %}
 {% for project in projects %}
-<div class="feature_wrapper">
-  <div class="feature__item--left">
-    <div class="archive__item">
-      <div class="archive__item-teaser">
-        <a href="{{project.url}}">
-          <img
-            src="/assets/images/projects/{{ project.title }}.jpg"
-            width="150"
-          />
-        </a>
-      </div>
-      <div class="archive__item-body">
-        <div class="projecttitle" style="font-size: 30px; font-weight: bold">
-          {{ project.title }}
-        </div>
-        <p></p>
-        <p style="font-size: 20px">{{project.intro}}</p>
-        <p></p>
-        <p>
-          <a href="{{project.url}}" target="_blank" class="btn btn--primary"
-            >Project Page</a
-          >
-        </p>
-      </div>
-    </div>
+<div>
+  <div style="width: 30%; height: 100%; float: left; margin-right: 2%; margin-bottom: 1%;">
+    <a href="{{project.url}}">
+      <img src={{ project.image }} style="width: 100%; border-radius: 10%;" />
+    </a>
   </div>
-  <hr width="100%" color="#41879d" size="1" />
+  <div style="width: 67%; height: 100%; float: right;">
+    <div class="projecttitle" style="font-size: 3vw; font-weight: bold">
+      {{ project.title }}
+    </div>
+    <p style="font-size: 2vw; margin-top: 2%;">{{project.intro}}</p>
+    <a href="{{project.url}}" target="_blank" class="btn btn--primary" style="margin-top: 2%;">Project Page</a>
+  </div>
+  <hr width="100%" color="#41879d" size="1"/>
 </div>
 {% endfor %}
 

@@ -3,12 +3,10 @@ uid: 1
 layout: posts
 title: wcRay
 intro: a simple physically-based renderer
+image: /assets/images/projects/wcRay.jpg
+github-url: https://github.com/wcvanvan/wcRay
 ---
 
-<div>
-<img src="/assets/images/projects/wcRay.jpg" width="300"/>
-<a href="https://github.com/wcvanvan/wcRay" target="_blank" class="btn btn--primary">View on Github</a>
-</div>
 
 a software path tracing project, implemented in modern C++. 
 
@@ -32,6 +30,6 @@ It depends on no other libraries except stb_image to read in images.
     - Checkerboard
     - Texture Mapping
 
-
-
 <img src="/assets/images/projects/wcRay2.jpg" width="500"/>
+
+
