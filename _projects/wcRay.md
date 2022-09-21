@@ -5,10 +5,12 @@ title: wcRay
 intro: a simple physically-based renderer
 image: /assets/images/projects/wcRay.jpg
 github-url: https://github.com/wcvanvan/wcRay
+sidebar: true
 ---
 
+<img src="/assets/images/projects/wcRay.jpg" style="margin-top: 10px; width: 50%;" />
 
-a software path tracing project, implemented in modern C++. 
+**wcRay** is a software path tracing program, implemented in modern C++. 
 
 It depends on no other libraries except stb_image to read in images.
 

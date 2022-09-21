@@ -1,19 +1,11 @@
 {% if page.author_profile or layout.author_profile or page.sidebar %}
-  <div class="sidebar sticky">
+<div class="sidebar sticky">
   {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
   {% if page.sidebar %}
-    {% for s in page.sidebar %}
-      {% if s.image %}
-        <img src="{{ s.image | relative_url }}"
-             alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
-      {% endif %}
-      {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
-      {% if s.text %}{{ s.text | markdownify }}{% endif %}
-      {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
-    {% endfor %}
-    {% if page.sidebar.nav %}
-      {% include nav_list nav=page.sidebar.nav %}
-    {% endif %}
+  <h1 style="font-size: calc(18px + 2vw);">{{ page.title }}</h1>
+  <div style="font-size: calc(10px + 1vw); font-style: italic; opacity: 0.8;">{{ page.intro }}</div>
+  <a href="{{ page.github-url }}" target="_blank" class="btn btn--primary" style="margin-top: 10px; width: 70%; float: inline-start;">View
+    on Github</a>
   {% endif %}
-  </div>
+</div>
 {% endif %}

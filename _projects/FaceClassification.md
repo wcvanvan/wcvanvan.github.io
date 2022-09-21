@@ -5,6 +5,7 @@ title: Image Classification
 intro: capable of distinguishing human from landscape using CNN
 image: /assets/images/projects/ImageClassification.jpg
 github-url: https://github.com/wcvanvan/ImageClassification
+sidebar: true
 ---
 
 The forward propagation part of a CNN written in C++, using the model trained by the library "<a href="https://github.com/ShiqiYu/SimpleCNNbyCPP">SimpleCNNbyCPP</a>" (written by my teacher)
