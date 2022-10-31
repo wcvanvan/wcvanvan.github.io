@@ -2,7 +2,7 @@
 uid: 1
 layout: posts
 title: wcRay
-intro: a simple physically-based renderer
+intro: a simple physically based renderer
 image: /assets/images/projects/wcRay.jpg
 github-url: https://github.com/wcvanvan/wcRay
 sidebar: true
