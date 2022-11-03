@@ -122,9 +122,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/wcvanvan"
-    - label: "ShaderToy"
-      icon: "fab fa-fw fa-shadertoy"
-      url: "https://www.shadertoy.com/user/wcvanvan"
+    # - label: "ShaderToy"
+    #   icon: "fab fa-fw fa-shadertoy"
+    #   url: "https://www.shadertoy.com/user/wcvanvan"
 
 # Site Footer
 footer:
