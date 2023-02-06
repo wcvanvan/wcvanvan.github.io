@@ -1,14 +1,14 @@
 ---
 uid: 2
 layout: posts
-title: Image Classification
-intro: capable of distinguishing human from landscape using CNN
+title: Image Classification in CPP
+intro: capable of distinguishing human from landscape using CNN written in CPP
 image: /assets/images/projects/ImageClassification.jpg
 github-url: https://github.com/wcvanvan/ImageClassification
 sidebar: true
 ---
 
-The forward propagation part of a CNN written in C++, using the model trained by the library "<a href="https://github.com/ShiqiYu/SimpleCNNbyCPP">SimpleCNNbyCPP</a>" (written by my teacher)
+The forward part of a CNN written in C++, using the model trained by the library "<a href="https://github.com/ShiqiYu/SimpleCNNbyCPP">SimpleCNNbyCPP</a>" (written by my teacher)
 
 capable of distinguishing human and landscape photos and giving the reliability of the test
 
